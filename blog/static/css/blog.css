@@ -5,6 +5,7 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+
 .search {
   width: 100%;
   position: relative;
@@ -23,7 +24,7 @@ body{
 }
 
 .searchTerm:focus{
-  color: #00B4CC;
+  color: #1C2833;
 }
 
 .searchButton {
@@ -40,9 +41,10 @@ body{
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
-  width: 30%;
-  position: absolute;
-  top: 50%;
+  width: 50%;
+  position: relative;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
